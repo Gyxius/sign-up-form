@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+  }
+
+img {
+    width: 400px;
+
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    background-color: #F9FAFB;
+    overflow: hidden;
+}
+
+#left-section {
+    padding: 0px;
+    margin: 0px;
+}
+
+#right-section {
+    padding-top: 100px;
+    width: 100%;
+}
+
+p {
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #3a3a37;
+}
+
+.form {
+    background-color: white;
+    padding-top: 5px;
+}
+
+label, input {
+    display: block;
+}
+
+fieldset {
+    display: flex;
+    gap: 70px;
+    border: none;
+    padding: 0px;
+    padding-block: 7px;
+    margin: 0px;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+label {
+    color: #576374;
+    font-weight: bold;
+    font-size: small;
+}
+
+input {
+    width: 220px;
+    height: 30px;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    border-color: #E5E7EB;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+form {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+button {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 200px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #48576d;
+    cursor: pointer;
+}
+
+#account-text {
+    font-size: large;
+    font-weight: normal; 
+    margin-top: 40px;
+}
+
+#odin-text {
+    font-family: Norse-Bold, sans-serif;
+    font-size: 80px;
+    color: white;
+    margin: 20px 0px 0px 10px;
+}
+
+#odin-img {
+    width: 80px;
+}
+
+#logo {
+    position: absolute;
+    top: 140px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+
+/* * {
+    outline: 2px solid red;
+} */
